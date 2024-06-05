@@ -4,7 +4,7 @@ SD-Updaterに対応した m5stack-avatar-mic です。<br>
 <br>
 mongonta0716 さんのソフトから次の修正を行いました。<br>
 - SD-Updater対応。<br>
-- BtnB 押下で画面の上限反転機能を追加<br>
+- BtnB 押下で画面の上限反転（トグル）機能を追加<br>
 
 <br>
 ブート時に、SD_Updater用の画面が立ち上がります。<br>
@@ -15,8 +15,8 @@ SDに入れたソフトを切り替えることができるようになります
 
 ## ボタンの機能
 ・<b>BtnA-Pressed</b>: 画面の顔の背景色が変わります。<br>
-・<b>BtnA-DoubleClicked</b>:　画面を逆さ<br>
-・<b>BtnB-Pressed</b>： ↑ で元に戻すことができなかったので上下反転機能を追加した。<br>
+・<b>BtnA-DoubleClicked</b>:　逆さ画面<br>
+・<b>BtnB-Pressed</b>： 上下反転(トグル)<br>
 <br>
 <br>
 
