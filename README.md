@@ -1,3 +1,68 @@
+# SDU-m5stack-avatar-mic
+SD-Updaterに対応した m5stack-avatar-mic です。<br>
+
+<br>
+mongonta0716 さんのソフトから次の修正を行いました。<br>
+- SD-Updater対応。<br>
+- BtnB 押下で画面の上限反転機能を追加<br>
+
+<br>
+ブート時に、SD_Updater用の画面が立ち上がります。<br>
+SDに入れたソフトを切り替えることができるようになります。<br>
+<br>
+
+
+
+## ボタンの機能
+・<b>BtnA-Pressed</b>: 画面の顔の背景色が変わります。<br>
+・<b>BtnA-DoubleClicked</b>:　画面を逆さ<br>
+・<b>BtnB-Pressed</b>： ↑ で元に戻すことができなかったので上下反転機能を追加した。<br>
+<br>
+<br>
+
+
+## 必要なもの
+### 本体<br>
+いずれかを用意してください。<br>
+・M5Stack Core2 for AWS<br>
+・M5Stack Core2 <br>
+・M5Stack Core2 v1.1　（未確認）<br>
+<br>
+
+### SDカード
+<br>
+
+
+## 最新BINの取得
+コンパイル済みの最新BINファイルは、下記のリポジトリから取得できます。
+- [BinsPack-for-StackChan-Core2](https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2)<br>
+<br>
+
+
+## SD-Updaterについて
+tobozoさん開発。SDに複数のBINファイルを入れて、ソフトを切替えて使用できるようになります。<br>
+
+ https://github.com/tobozo/M5Stack-SD-Updater<br><br>
+
+
+タカオさん、2023/7/29 ｽﾀｯｸﾁｬﾝ お誕生日会 2023のLTで、M5Stack-SD-Updaterの概要を説明した時のスライド<br>
+https://speakerdeck.com/mongonta0716/sutatukutiyandefu-shu-apuriwoqie-riti-erutekunituku
+
+<br><br>
+
+
+## 基のリポジトリ
+- [m5stack-avatar-mic　(mongonta0716さん)](https://github.com/mongonta0716/m5stack-avatar-mic)<br>
+<br>
+<br><br>
+
+ここから、基のソフトの説明書です。
+
+-----
+
+
+
+
 # m5stack-avatar-mic
 マイクを使ったM5Stack Avatarの例です。
 音に合わせてAvatarが口パクしたり、傾いたりします。
